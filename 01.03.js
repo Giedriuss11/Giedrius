@@ -1,4 +1,4 @@
-
+console.log("hjgvhgvjhg")
 const computerImg = document.querySelectorAll(".computerImg")
 const playerNow = document.querySelectorAll(".palyerImg")
 const button = document.querySelector("button")
