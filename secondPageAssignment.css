@@ -1,0 +1,48 @@
+
+.toolBar {
+    padding: 30px;
+    background-color: #7c7c7c;
+    gap: 14px;
+}
+
+.toolBar a {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.filter {
+    padding: 30px;
+    background-color: #c2c2c2;
+}
+
+input {
+    width: 25%;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.form div {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+img {
+    height: 50%;
+}

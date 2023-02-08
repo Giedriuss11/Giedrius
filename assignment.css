@@ -1,0 +1,97 @@
+
+
+.toolBar {
+    padding: 30px;
+    background-color: #7c7c7c;
+    gap: 14px;
+}
+
+.toolBar a {
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+}
+
+.addForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.addFormSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 300px;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+.formRecipes {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+.formRecipes button{
+    margin-top: 50px;
+}
+
+input {
+    padding: 30px;
+    width: 80%;
+}
+
+.add {
+    display: flex;
+}
+
+.add input {
+    flex: 4;
+
+}
+
+.add button {
+    flex: 1;
+}
+
+.formClass {
+    display: flex;
+    height: 200px;
+}
+
+.formClass img {
+    flex: 3;
+    width: 60%;
+}
+
+.formClass div {
+    flex: 2;
+}
+
+.invalids {
+    border: 2px solid red;
+}
+
+.error {
+    color: #d33e3e;
+}
